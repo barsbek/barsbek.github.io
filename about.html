@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+  <title>About</title>
+</head>
+<body>
+  <h1>Here i will write about myself and my projects</h1>
+  <div>
+    To run some script press the <button class="awesome-button">button</button>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function(e) {
+      document.querySelector('.awesome-button').addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('Awesome!');
+      });
+    });
+  </script>
+</html>
